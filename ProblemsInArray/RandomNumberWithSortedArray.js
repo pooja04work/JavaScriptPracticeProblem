@@ -2,6 +2,7 @@ upper = 999;
 lower = 100;
 counter = 0;
 
+function randomValueWithSortedArray(){
 randomNumberArray = new Array();
 while(counter < 10){
     randomNumberArray[counter] = Math.floor(Math.random() * (upper - lower) + lower);
@@ -30,3 +31,5 @@ for(c = 0; c < randomNumberArray.length; c++){
 }
 console.log("Second Largest number in the array is" + randomNumberArray[1]);
 console.log("Second Smallest number in the array is" + randomNumberArray[randomNumberArray.length-2]);
+}
+randomValueWithSortedArray();

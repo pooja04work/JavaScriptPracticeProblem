@@ -9,6 +9,7 @@ for(i = 0; i < 10; i++) {
 }
 console.log("ArrayOfRandomNumber: " + randomNumbers);
 
+function randomValue(){
 largestValue = randomNumbers[0];
 smallestValue = randomNumbers[0];
 secondLargest = 0;
@@ -33,3 +34,5 @@ for(j = 1; j < randomNumbers.length; j++){
 }
 console.log('Second largest value is = '+secondLargest);
 console.log('Second smallest value is = '+secondSmallest);
+}
+randomValue();

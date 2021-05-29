@@ -1,3 +1,4 @@
+function digitRepeat(){
 repeatedDigit = new Array();
 
 for(counter = 10; counter < 100; counter++){
@@ -6,3 +7,6 @@ for(counter = 10; counter < 100; counter++){
     }
 }
 console.log("Repeated number is: " + repeatedDigit);
+}
+
+digitRepeat();

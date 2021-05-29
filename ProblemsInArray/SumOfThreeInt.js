@@ -1,3 +1,4 @@
+function threeIntSum(){
 array1 = new Array();
 array1 = [-4, 7, -3, 2, 9];
 found = 0;
@@ -12,3 +13,5 @@ for(count = 0; count < (array1.length) - 2; count++){
         }
     }
 }
+}
+threeIntSum();
